@@ -136,6 +136,8 @@ em3 {font-family: var(--font3);text-transform: uppercase;color:var(--accentClr);
 .post:has(.annexe) .post_profile {display: none;}
 
 .file_container {width:700px;text-align:justify;border-bottom:var(--border-cat);}
+.file_container1 /*si "annexe" n'est pas utilisé pour enlever le profil*/
+{width:600px;text-align:justify;border-bottom:var(--border-cat);}
 .file_title {border-top:var(--border-cat);border-bottom:var(--border-cat);padding:10px 0;font-family:var(--font2);
   text-transform:uppercase;margin-bottom:10px;font-size:var(--big-size);text-align:center;}
 .file_subtitle1 {font-family:var(--font3);text-transform:uppercase;font-size:var(--medium-size);}
